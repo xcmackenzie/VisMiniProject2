@@ -24,8 +24,9 @@
     </head>
     
     <body>
-        <div style="padding-left: 100px; padding-right: 100px;">
+        <div style="padding-left: 150px; padding-right: 150px;padding-top: 50px; padding-bottom: 150px;">
         <h1 style="text-align: center; background-color: lightblue; padding: 10px;">Threatened Species Over Time</h1>
+        <h4 style="text-align: center; padding: 0px;">Grace Myers, Anna Bolger, and Christina MacKenzie</h4>
         <h2><strong>Introduction</strong></h2>
         <p> For this exploratory and explanatory data analysis, we chose to look at data on threatened species which we retrieved from the UN.This dataset contains 253 different countries and includes information spanning over 16 years (2004-2020). The dataset covers information on total threatened species numbers as well as breaks the numbers down by species including vertebrates, invertebrates and plants. In order to gain a better understanding of the data, we created dashboards and story points to answer the following questions:</p>
         
@@ -90,13 +91,7 @@
             <br/>
             <p>This set of maps visualizes the total number of threatened species of each type, invertebrates, plants, and vertebrates, in each country in 2020.  You can navigate through the maps showing the different types by clicking the different dividers at the top. It appears from these maps that the amounts of threatened vertebrates and invertebrates in a given country are correlated, while the number of threatened plants in a country is more independent.  Further, the majority of threatened plants seems to be concentrated in two countries, Ecuador and Madagascar, which also are the two countries with the highest total number of threatened species.</p>
         </div>
-        <div class = "container">
-            <div>
-                <p>graph.</p>
-            </div>  
-            <br/>
-           
-        </div>                    
+                         
              
         <h2 style="text-align: center; background-color: lightblue; padding: 10px;">Looking at the Big Picture</h2>
         <div class = "container">
@@ -143,7 +138,7 @@
             <br/>
 
             <p> These stack bar charts allow us to compare the number of threatened species in each country a decade apart. In the top graph, it captures data from 2010 and the bottom graph captures data from 2020. The total number of threatened species increases for most countries between 2010 and 2020. Madagascar signifitcantly increases the number of threatened species between 2010 and 2020, going from having the 13th most threatened species to the most threatened species. Also, in the countries with the highest number of threatened species, the species with the most threatened species is usually plants.</p>
-        </div>
+        
         <div class = "container">
             <div>
                 <div class='tableauPlaceholder' id='viz1634133727190' style='position: relative'><noscript><a href='#'><img alt='How has the number of threatened species of each category changed over time? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;th&#47;threatenedspecies_16340609392570&#47;Howhasthenumberofthreatenedspeciesofeachcategorychangedovertime&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='threatenedspecies_16340609392570&#47;Howhasthenumberofthreatenedspeciesofeachcategorychangedovertime' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;th&#47;threatenedspecies_16340609392570&#47;Howhasthenumberofthreatenedspeciesofeachcategorychangedovertime&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1634133727190');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>       
@@ -159,16 +154,17 @@
             <p> These line charts show the increase in threatened species between 2004 and 2020 for the 50 countries with the largest increases. The countries that are highlighted as having the highest levels of threatened species and most significant increaseas are: Ecuador, Madagascar, the USA, and Malaysia. </p>
         </div>
 
-    </div>        
+    
+       
         <h2 style="text-align: center; background-color: lightblue; padding: 10px;">Reflections</h2>
-           <div style="padding-left: 100px; padding-right: 100px;">
+           
             <h3>Processes</h3>
                 <p><strong>Data Selection:</strong> We selected this dataset because we found it to be an interesting topic, and there was a large amount of data to explore given that the data was split by different types of species.  Specifically, it makes distinctions between the number of threatened species which were invertebrates, plants, and vertebrates.</p>
                 <img class = "image" src = "dataselection.png"/> 
                 <p>There were some blank spaces in the earlier data, such as 2004, which may lower some of the validity when comparing numbers across years. Additionally, the dataset did a good job of including most countries, with only a couple missing in Africa and South America.  This wide selection of data provided a good opportunity for analysis, since there were so many data points available to be used. To clean the dataset, we edited the names of the column headings and removed some miscellaneous # characters in some of the values.  Doing so allowed for easier importation into Tableau for use in creating our various visualizations.</p>
                 <p><strong>Exploration:</strong> To explore our data, we decided to proceed in stages, first examining the preliminary characteristics of the data, then some more big picture findings, and finally more specific details.  In the preliminary phase, we asked questions such as "which countries were included in our data?" and "how many threatened species total are there by country in 2020?" in order to gain more of a general view of what the data was showing.  In doing so, we became more curious on how the data tied together at a more detailed level.  To explore this further, we decided to begin to compare the total numbers of threatened species between countries, looking at the countries that have the highest and lowest total numbers so that we could begin to look for patterns.  Additionally, we chose to look at how the total number of threatened species has changed over time.  Finally, in our last topic, we decided to look at more detailed questions concerning the specific categories of threatened species that arose for us in the data.  This included things such as looking at countries with the highest numbers of each type of threatened species, correlations between the types of threatened species, and how the numbers in each category have changed over time.</p>
                 <img class = "image" src = "exploration.png"/>
-                <p>*When it came time to decide which specific visualizations to include, we looked at which of our graphics told us the most about the data. For example, we left out some graphs which only gave us a small insight into the data, such as counts for different threatened species in total. These graphs were not informative unless they were broken down by year. Additionally, we wanted to tell a story in which one learns more about how the data is related to each other. We chose graphs such as the multiple line graphs that explained how the number of threatened species has been increasing over time by country. This allows the viewer to understand not only what the numbers are but how they are changing and at what rates. </p>
+                <p>When it came time to decide which specific visualizations to include, we looked at which of our graphics told us the most about the data. For example, we left out some graphs which only gave us a small insight into the data, such as counts for different threatened species in total. These graphs were not informative unless they were broken down by year. Additionally, we wanted to tell a story in which one learns more about how the data is related to each other. We chose graphs such as the multiple line graphs that explained how the number of threatened species has been increasing over time by country. This allows the viewer to understand not only what the numbers are but how they are changing and at what rates. </p>
                 <p><strong>Explanation:</strong></p>
             <h3>Graph Usage</h3>
                 <p><strong>Line chart:</strong> Line charts were helpful to graph changes over time in this dataset. For example, in the graph comparing the number of different species overtime, the line graph is very useful.</p>
